@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A05AF85B76C147C86FFEDAC /* Pods_Market.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9C7A8456DE2D46FF854451 /* Pods_Market.framework */; };
+		513AEE5F23E26B4C002825EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513AEE5E23E26B4C002825EB /* Constants.swift */; };
 		514B120E23D17D2000E64982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B120D23D17D2000E64982 /* AppDelegate.swift */; };
 		514B121023D17D2000E64982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B120F23D17D2000E64982 /* SceneDelegate.swift */; };
 		514B121523D17D2000E64982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514B121323D17D2000E64982 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2B9C7A8456DE2D46FF854451 /* Pods_Market.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Market.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513AEE5E23E26B4C002825EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		514B120A23D17D2000E64982 /* Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514B120D23D17D2000E64982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		514B120F23D17D2000E64982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				51E3762A23DFCC350062385E /* FirebaseCollectionReference.swift */,
+				513AEE5E23E26B4C002825EB /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				514B120E23D17D2000E64982 /* AppDelegate.swift in Sources */,
 				51E3762B23DFCC350062385E /* FirebaseCollectionReference.swift in Sources */,
 				514B121023D17D2000E64982 /* SceneDelegate.swift in Sources */,
+				513AEE5F23E26B4C002825EB /* Constants.swift in Sources */,
 				51E3762523DFC6390062385E /* CategoryCollectionViewController.swift in Sources */,
 				51E3763023DFD44C0062385E /* Category.swift in Sources */,
 			);
